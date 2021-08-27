@@ -19,6 +19,7 @@
 		E163728726B65CE800A13106 /* ShowRecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163728626B65CE800A13106 /* ShowRecsViewController.swift */; };
 		E163728926B663D600A13106 /* NHIEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163728826B663D600A13106 /* NHIEViewController.swift */; };
 		E163728B26B762D500A13106 /* GetEvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163728A26B762D500A13106 /* GetEvenViewController.swift */; };
+		E172F89726D9515600A7103D /* StretchingMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E172F89626D9515600A7103D /* StretchingMeditationViewController.swift */; };
 		E19275A926B105D800590238 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19275A826B105D800590238 /* ColorViewController.swift */; };
 		E19275AB26B2586900590238 /* ShowMovieRecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19275AA26B2586900590238 /* ShowMovieRecsViewController.swift */; };
 		E19275AD26B451BB00590238 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19275AC26B451BB00590238 /* TableViewDelegate.swift */; };
@@ -70,6 +71,7 @@
 		E163728626B65CE800A13106 /* ShowRecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRecsViewController.swift; sourceTree = "<group>"; };
 		E163728826B663D600A13106 /* NHIEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHIEViewController.swift; sourceTree = "<group>"; };
 		E163728A26B762D500A13106 /* GetEvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEvenViewController.swift; sourceTree = "<group>"; };
+		E172F89626D9515600A7103D /* StretchingMeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchingMeditationViewController.swift; sourceTree = "<group>"; };
 		E19275A826B105D800590238 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		E19275AA26B2586900590238 /* ShowMovieRecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMovieRecsViewController.swift; sourceTree = "<group>"; };
 		E19275AC26B451BB00590238 /* TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				E139588926BB474900813128 /* HBOShowsViewController.swift */,
 				E139588B26BB9E5A00813128 /* ClearResponseViewController.swift */,
 				E162F89E26C4910C009083FE /* MKMapViewDelegate.swift */,
+				E172F89626D9515600A7103D /* StretchingMeditationViewController.swift */,
 			);
 			path = Eupheme;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E162F89F26C4910C009083FE /* MKMapViewDelegate.swift in Sources */,
+				E172F89726D9515600A7103D /* StretchingMeditationViewController.swift in Sources */,
 				E139588226BB470E00813128 /* NetflixShowsViewController.swift in Sources */,
 				E163728B26B762D500A13106 /* GetEvenViewController.swift in Sources */,
 				E1A79EC126B0B05C00F9127E /* HomeViewController.swift in Sources */,
@@ -534,7 +538,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kwk-Katherine.Eupheme";
+				PRODUCT_BUNDLE_IDENTIFIER = KatherineSanders.Eupheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,7 +556,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kwk-Katherine.Eupheme";
+				PRODUCT_BUNDLE_IDENTIFIER = KatherineSanders.Eupheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

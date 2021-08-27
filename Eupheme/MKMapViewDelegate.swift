@@ -9,7 +9,9 @@ import Foundation
 import UIKit
 import MapKit
 
+
 func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+
     if annotation is MKUserLocation{
         return nil;
     }
@@ -25,4 +27,6 @@ func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> 
         }
         return pinView;
     }
+
 }
+

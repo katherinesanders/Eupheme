@@ -10,7 +10,7 @@ import MapKit
 import CoreLocation
 import SwiftUI
 
-class FindMapViewController: UIViewController /*, CLLocationManagerDelegate*/ {
+class FindMapViewController: UIViewController, CLLocationManagerDelegate /*, CLLocationManagerDelegate*/ {
     //^^ADD ANNOTATIONS FIRST
     
     @IBOutlet weak var map: MKMapView!
@@ -18,13 +18,39 @@ class FindMapViewController: UIViewController /*, CLLocationManagerDelegate*/ {
     
     //let annotation = MKPointAnnotation()
     
+    
+    class CustomAnnotation: MKPointAnnotation {
+        var isCollapsed = true // current state
+
+        // set true when user taps the link to expand/collapse annotation-view
+        var setNeedsToggle = false
+    }
+
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let london = MKPointAnnotation()
-        london.title = "London"
-        london.coordinate = CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275)
-        map.addAnnotation(london)
+        let northWestCounseling = MKPointAnnotation()
+                northWestCounseling.title = "North West Counseling Center"
+                northWestCounseling.coordinate = CLLocationCoordinate2D(latitude: 45.787389, longitude: 108.556639)
+                map.addAnnotation(northWestCounseling)
+                
+                //45.7874° N, 108.55665° W
+                //coordinates are showing up in mongolia?????
+                //maybe only do montana, idaho, wyoming, and the dakotas
+                
+                /* LETS ADD ANNOTATIONS FIRST
+                locationManager.requestWhenInUseAuthorization()
+                locationManager.desiredAccuracy = kCLLocationAccuracyBest
+                locationManager.distanceFilter = kCLDistanceFilterNone
+                locationManager.startUpdatingLocation()
+                */
+                //SHOWS ERROR
+                //mapView.showsUserLocation = true
+
+        
+        //45.7874° N, 108.55665° W
         
         /* LETS ADD ANNOTATIONS FIRST
         locationManager.requestWhenInUseAuthorization()
@@ -36,21 +62,23 @@ class FindMapViewController: UIViewController /*, CLLocationManagerDelegate*/ {
         //mapView.showsUserLocation = true
     }
     
+    
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         guard annotation is MKPointAnnotation else { return nil }
-
+ 
         let identifier = "Annotation"
         var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
-
+ 
         if annotationView == nil {
             annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
             annotationView!.canShowCallout = true
         } else {
             annotationView!.annotation = annotation
         }
-
+ 
         return annotationView
     }
+
     
 /*
  

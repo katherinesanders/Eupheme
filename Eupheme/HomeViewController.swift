@@ -15,6 +15,8 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var doTextRounded3: UIButton!
     
+    @IBOutlet weak var doTextRounded4: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,6 +24,7 @@ class HomeViewController: UIViewController {
         doTextRounded1.layer.cornerRadius = 20
         doTextRounded2.layer.cornerRadius = 20
         doTextRounded3.layer.cornerRadius = 20
+        doTextRounded4.layer.cornerRadius = 20
         // Do any additional setup after loading the view.
     }
     
