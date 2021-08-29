@@ -6,49 +6,59 @@
 //
 
 import UIKit
+import SwiftUI
 import MapKit
 import CoreLocation
-import SwiftUI
 
-class FindMapViewController: UIViewController, CLLocationManagerDelegate /*, CLLocationManagerDelegate*/ {
+class FindMapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate /*, CLLocationManagerDelegate*/ {
     //^^ADD ANNOTATIONS FIRST
+    
+
     
     @IBOutlet weak var map: MKMapView!
     //fileprivate let locationManager:CLLocationManager = CLLocationManager()
     
+    
     //let annotation = MKPointAnnotation()
     
+    @IBOutlet weak var userTownField: UITextField!
+    @IBOutlet weak var testText: UILabel!
     
     class CustomAnnotation: MKPointAnnotation {
         var isCollapsed = true // current state
 
         // set true when user taps the link to expand/collapse annotation-view
-        var setNeedsToggle = false
+        var setNeedsToggle = true
+        
+        
+        
     }
-
+    
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         let northWestCounseling = MKPointAnnotation()
-                northWestCounseling.title = "North West Counseling Center"
-                northWestCounseling.coordinate = CLLocationCoordinate2D(latitude: 45.787389, longitude: 108.556639)
+                northWestCounseling.title = " "//North West Counseling Center"
+                northWestCounseling.coordinate = CLLocationCoordinate2D(latitude: 45.787389, longitude: -108.556639)
                 map.addAnnotation(northWestCounseling)
+        
+        
                 
-                //45.7874° N, 108.55665° W
-                //coordinates are showing up in mongolia?????
+
                 //maybe only do montana, idaho, wyoming, and the dakotas
                 
-                /* LETS ADD ANNOTATIONS FIRST
-                locationManager.requestWhenInUseAuthorization()
-                locationManager.desiredAccuracy = kCLLocationAccuracyBest
-                locationManager.distanceFilter = kCLDistanceFilterNone
-                locationManager.startUpdatingLocation()
-                */
+                
+                
                 //SHOWS ERROR
                 //mapView.showsUserLocation = true
 
+        
+    
+
+        
         
         //45.7874° N, 108.55665° W
         
@@ -64,6 +74,7 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate /*, CLL
     
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
         guard annotation is MKPointAnnotation else { return nil }
  
         let identifier = "Annotation"
@@ -77,11 +88,47 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate /*, CLL
         }
  
         return annotationView
+        
     }
+    
+    class Therapy {
+        //is this allowed
+        var therapyName = ""
+        var therapyLocation = ""
+        var therapyNumber = ""
+    }
+    
 
+
+    @IBAction func findUserTownButton(_ sender: UIButton) {
+        //if billings is in text field, list these objects
+        if userTownField.text == "Billings, Montana" {
+            let billingsTherapy = Therapy()
+            billingsTherapy.therapyName = "something"
+            billingsTherapy.therapyLocation = "something"
+            billingsTherapy.therapyNumber = "3"
+            
+            testText.text = billingsTherapy.therapyName
+            
+        }
+        
+        if userTownField.text == "Bozeman, Montana" {
+            let bozemanTherapy = Therapy()
+            bozemanTherapy.therapyName = "something"
+            bozemanTherapy.therapyLocation = "something"
+            bozemanTherapy.therapyNumber = "3"
+            
+            testText.text = bozemanTherapy.therapyName
+            
+        }
+        
+        
+    }
+    
     
 /*
  
+     
     
     func addAnnotations(coords: [CLLocation]){
             for coord in coords{

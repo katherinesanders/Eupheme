@@ -22,19 +22,19 @@ class ShowRecsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        netflixImage.layer.cornerRadius = 50
+        netflixImage.layer.cornerRadius = 20
         self.netflixImage.layer.masksToBounds = true;
         
-        huluImage.layer.cornerRadius = 50
+        huluImage.layer.cornerRadius = 20
         self.huluImage.layer.masksToBounds = true;
         
-        primeImage.layer.cornerRadius = 50
+        primeImage.layer.cornerRadius = 20
         self.primeImage.layer.masksToBounds = true;
         
-        disneyImage.layer.cornerRadius = 50
+        disneyImage.layer.cornerRadius = 20
         self.disneyImage.layer.masksToBounds = true;
         
-        hboImage.layer.cornerRadius = 50
+        hboImage.layer.cornerRadius = 20
         self.hboImage.layer.masksToBounds = true;
         
 
