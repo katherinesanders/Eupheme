@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E130F98226DD79A5002F712B /* YouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98126DD79A5002F712B /* YouViewController.swift */; };
+		E130F98426DD7B20002F712B /* EliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98326DD7B20002F712B /* EliteViewController.swift */; };
+		E130F98626DD7C7A002F712B /* NeverthelessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98526DD7C7A002F712B /* NeverthelessViewController.swift */; };
+		E130F98826DD7D39002F712B /* DeathNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98726DD7D39002F712B /* DeathNoteViewController.swift */; };
+		E130F98A26DD9295002F712B /* ManifestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98926DD9295002F712B /* ManifestViewController.swift */; };
+		E130F98C26DD92A1002F712B /* AtypicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98B26DD92A1002F712B /* AtypicalViewController.swift */; };
+		E130F98E26DD92AF002F712B /* YoungRoyalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98D26DD92AF002F712B /* YoungRoyalsViewController.swift */; };
+		E130F99026DD92BC002F712B /* TheSocietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98F26DD92BC002F712B /* TheSocietyViewController.swift */; };
+		E130F99226DD92C7002F712B /* OuterbanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F99126DD92C7002F712B /* OuterbanksViewController.swift */; };
 		E139588226BB470E00813128 /* NetflixShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139588126BB470E00813128 /* NetflixShowsViewController.swift */; };
 		E139588426BB471D00813128 /* HuluShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139588326BB471D00813128 /* HuluShowsViewController.swift */; };
 		E139588626BB472C00813128 /* PrimeShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139588526BB472C00813128 /* PrimeShowsViewController.swift */; };
@@ -59,6 +68,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E130F98126DD79A5002F712B /* YouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouViewController.swift; sourceTree = "<group>"; };
+		E130F98326DD7B20002F712B /* EliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliteViewController.swift; sourceTree = "<group>"; };
+		E130F98526DD7C7A002F712B /* NeverthelessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverthelessViewController.swift; sourceTree = "<group>"; };
+		E130F98726DD7D39002F712B /* DeathNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathNoteViewController.swift; sourceTree = "<group>"; };
+		E130F98926DD9295002F712B /* ManifestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestViewController.swift; sourceTree = "<group>"; };
+		E130F98B26DD92A1002F712B /* AtypicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtypicalViewController.swift; sourceTree = "<group>"; };
+		E130F98D26DD92AF002F712B /* YoungRoyalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoungRoyalsViewController.swift; sourceTree = "<group>"; };
+		E130F98F26DD92BC002F712B /* TheSocietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSocietyViewController.swift; sourceTree = "<group>"; };
+		E130F99126DD92C7002F712B /* OuterbanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterbanksViewController.swift; sourceTree = "<group>"; };
 		E139588126BB470E00813128 /* NetflixShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixShowsViewController.swift; sourceTree = "<group>"; };
 		E139588326BB471D00813128 /* HuluShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluShowsViewController.swift; sourceTree = "<group>"; };
 		E139588526BB472C00813128 /* PrimeShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeShowsViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +196,15 @@
 				E139588B26BB9E5A00813128 /* ClearResponseViewController.swift */,
 				E162F89E26C4910C009083FE /* MKMapViewDelegate.swift */,
 				E172F89626D9515600A7103D /* StretchingMeditationViewController.swift */,
+				E130F98126DD79A5002F712B /* YouViewController.swift */,
+				E130F98326DD7B20002F712B /* EliteViewController.swift */,
+				E130F98526DD7C7A002F712B /* NeverthelessViewController.swift */,
+				E130F98726DD7D39002F712B /* DeathNoteViewController.swift */,
+				E130F98926DD9295002F712B /* ManifestViewController.swift */,
+				E130F98B26DD92A1002F712B /* AtypicalViewController.swift */,
+				E130F98D26DD92AF002F712B /* YoungRoyalsViewController.swift */,
+				E130F98F26DD92BC002F712B /* TheSocietyViewController.swift */,
+				E130F99126DD92C7002F712B /* OuterbanksViewController.swift */,
 			);
 			path = Eupheme;
 			sourceTree = "<group>";
@@ -336,12 +363,17 @@
 				E163728B26B762D500A13106 /* GetEvenViewController.swift in Sources */,
 				E1A79EC126B0B05C00F9127E /* HomeViewController.swift in Sources */,
 				E139588A26BB474900813128 /* HBOShowsViewController.swift in Sources */,
+				E130F99226DD92C7002F712B /* OuterbanksViewController.swift in Sources */,
 				E1F9768F26B453E600CAFF5B /* Eupheme.xcdatamodeld in Sources */,
 				E19275AD26B451BB00590238 /* TableViewDelegate.swift in Sources */,
 				E1F9769126B47F5800CAFF5B /* EuphemeClass.swift in Sources */,
 				E163728726B65CE800A13106 /* ShowRecsViewController.swift in Sources */,
+				E130F99026DD92BC002F712B /* TheSocietyViewController.swift in Sources */,
 				E1A79E9226B0ABED00F9127E /* ViewController.swift in Sources */,
 				E1A79EC326B0B08B00F9127E /* ReflectViewController.swift in Sources */,
+				E130F98426DD7B20002F712B /* EliteViewController.swift in Sources */,
+				E130F98A26DD9295002F712B /* ManifestViewController.swift in Sources */,
+				E130F98826DD7D39002F712B /* DeathNoteViewController.swift in Sources */,
 				E1A79ECB26B0E60800F9127E /* BookRecsViewController.swift in Sources */,
 				E139588826BB473D00813128 /* DisneyShowsViewController.swift in Sources */,
 				E1A79EC726B0B20E00F9127E /* HotlinesViewController.swift in Sources */,
@@ -351,8 +383,12 @@
 				E19275A926B105D800590238 /* ColorViewController.swift in Sources */,
 				E1A79EC526B0B09900F9127E /* WriteViewController.swift in Sources */,
 				E162F8A126C49292009083FE /* FindMapViewController.swift in Sources */,
+				E130F98626DD7C7A002F712B /* NeverthelessViewController.swift in Sources */,
 				E19275AF26B451CC00590238 /* TableViewDataSource.swift in Sources */,
+				E130F98226DD79A5002F712B /* YouViewController.swift in Sources */,
+				E130F98C26DD92A1002F712B /* AtypicalViewController.swift in Sources */,
 				E139588C26BB9E5A00813128 /* ClearResponseViewController.swift in Sources */,
+				E130F98E26DD92AF002F712B /* YoungRoyalsViewController.swift in Sources */,
 				E19275AB26B2586900590238 /* ShowMovieRecsViewController.swift in Sources */,
 				E139588626BB472C00813128 /* PrimeShowsViewController.swift in Sources */,
 				E139588426BB471D00813128 /* HuluShowsViewController.swift in Sources */,

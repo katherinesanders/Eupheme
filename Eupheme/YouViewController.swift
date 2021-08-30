@@ -1,13 +1,13 @@
 //
-//  GetEvenViewController.swift
+//  YouViewController.swift
 //  Eupheme
 //
-//  Created by Katherine Sanders on 8/1/21.
+//  Created by Katherine Sanders on 8/30/21.
 //
 
 import UIKit
 
-class GetEvenViewController: UIViewController {
+class YouViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,8 +15,8 @@ class GetEvenViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func getEvenWatch(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://www.netflix.com/title/81001036")! as URL, options: [:], completionHandler: nil)
+    @IBAction func youWatch(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.netflix.com/search?q=you&jbv=80211991")! as URL, options: [:], completionHandler: nil)
     }
     
     /*
