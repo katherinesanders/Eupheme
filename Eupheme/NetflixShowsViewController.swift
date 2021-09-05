@@ -43,6 +43,9 @@ class NetflixShowsViewController: UIViewController {
     @IBOutlet weak var outerbanksImage: UIImageView!
     @IBOutlet weak var outerbanksLearn: UIButton!
     
+    @IBOutlet weak var gilmoreGirlsImage: UIImageView!
+    @IBOutlet weak var gilmoreGirlsLLearn: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -101,6 +104,11 @@ class NetflixShowsViewController: UIViewController {
         self.outerbanksImage.layer.masksToBounds = true;
         outerbanksLearn.layer.cornerRadius = 10
         self.outerbanksLearn.layer.masksToBounds = true;
+        
+        gilmoreGirlsImage.layer.cornerRadius = 20
+        self.gilmoreGirlsImage.layer.masksToBounds = true;
+        gilmoreGirlsLLearn.layer.cornerRadius = 10
+        self.gilmoreGirlsLLearn.layer.masksToBounds = true;
         
         // Do any additional setup after loading the view.
     }

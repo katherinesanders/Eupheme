@@ -58,19 +58,20 @@ class ReflectViewController: UIViewController, ViewControllerDelegate {
     }
     
     
+    
     @IBAction func clearTable(_ sender: UIButton) {
         
         //clearing responsecd 
-        /*
+    /*
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-             if let theCurrentResponses = allTheResponses {
+            if let theCurrentResponses = responses {
               context.delete(theCurrentResponses)
          
               //TabBarController?.popViewController(animated: true)
             }
           }
- */
-        
+ 
+        */
         
         
         

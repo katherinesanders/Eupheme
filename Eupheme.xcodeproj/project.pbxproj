@@ -28,6 +28,12 @@
 		E163728726B65CE800A13106 /* ShowRecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163728626B65CE800A13106 /* ShowRecsViewController.swift */; };
 		E163728926B663D600A13106 /* NHIEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163728826B663D600A13106 /* NHIEViewController.swift */; };
 		E163728B26B762D500A13106 /* GetEvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163728A26B762D500A13106 /* GetEvenViewController.swift */; };
+		E1666CF726E02E9C0038CF36 /* GilmoreGirlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666CF626E02E9C0038CF36 /* GilmoreGirlsViewController.swift */; };
+		E1666CF926E031CB0038CF36 /* ManifestHuluViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666CF826E031CB0038CF36 /* ManifestHuluViewController.swift */; };
+		E1666CFB26E138C30038CF36 /* ScreamQueensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666CFA26E138C30038CF36 /* ScreamQueensViewController.swift */; };
+		E1666CFD26E138CF0038CF36 /* AloneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666CFC26E138CF0038CF36 /* AloneViewController.swift */; };
+		E1666CFF26E138DA0038CF36 /* ShamelessNetflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666CFE26E138DA0038CF36 /* ShamelessNetflixViewController.swift */; };
+		E1666D0126E138E70038CF36 /* ShamelessHuluViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666D0026E138E70038CF36 /* ShamelessHuluViewController.swift */; };
 		E172F89726D9515600A7103D /* StretchingMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E172F89626D9515600A7103D /* StretchingMeditationViewController.swift */; };
 		E19275A926B105D800590238 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19275A826B105D800590238 /* ColorViewController.swift */; };
 		E19275AB26B2586900590238 /* ShowMovieRecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19275AA26B2586900590238 /* ShowMovieRecsViewController.swift */; };
@@ -89,6 +95,12 @@
 		E163728626B65CE800A13106 /* ShowRecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRecsViewController.swift; sourceTree = "<group>"; };
 		E163728826B663D600A13106 /* NHIEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHIEViewController.swift; sourceTree = "<group>"; };
 		E163728A26B762D500A13106 /* GetEvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEvenViewController.swift; sourceTree = "<group>"; };
+		E1666CF626E02E9C0038CF36 /* GilmoreGirlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GilmoreGirlsViewController.swift; sourceTree = "<group>"; };
+		E1666CF826E031CB0038CF36 /* ManifestHuluViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestHuluViewController.swift; sourceTree = "<group>"; };
+		E1666CFA26E138C30038CF36 /* ScreamQueensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamQueensViewController.swift; sourceTree = "<group>"; };
+		E1666CFC26E138CF0038CF36 /* AloneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloneViewController.swift; sourceTree = "<group>"; };
+		E1666CFE26E138DA0038CF36 /* ShamelessNetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamelessNetflixViewController.swift; sourceTree = "<group>"; };
+		E1666D0026E138E70038CF36 /* ShamelessHuluViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamelessHuluViewController.swift; sourceTree = "<group>"; };
 		E172F89626D9515600A7103D /* StretchingMeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchingMeditationViewController.swift; sourceTree = "<group>"; };
 		E19275A826B105D800590238 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		E19275AA26B2586900590238 /* ShowMovieRecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMovieRecsViewController.swift; sourceTree = "<group>"; };
@@ -205,6 +217,12 @@
 				E130F98D26DD92AF002F712B /* YoungRoyalsViewController.swift */,
 				E130F98F26DD92BC002F712B /* TheSocietyViewController.swift */,
 				E130F99126DD92C7002F712B /* OuterbanksViewController.swift */,
+				E1666CF626E02E9C0038CF36 /* GilmoreGirlsViewController.swift */,
+				E1666CF826E031CB0038CF36 /* ManifestHuluViewController.swift */,
+				E1666CFA26E138C30038CF36 /* ScreamQueensViewController.swift */,
+				E1666CFC26E138CF0038CF36 /* AloneViewController.swift */,
+				E1666CFE26E138DA0038CF36 /* ShamelessNetflixViewController.swift */,
+				E1666D0026E138E70038CF36 /* ShamelessHuluViewController.swift */,
 			);
 			path = Eupheme;
 			sourceTree = "<group>";
@@ -357,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1666D0126E138E70038CF36 /* ShamelessHuluViewController.swift in Sources */,
 				E162F89F26C4910C009083FE /* MKMapViewDelegate.swift in Sources */,
 				E172F89726D9515600A7103D /* StretchingMeditationViewController.swift in Sources */,
 				E139588226BB470E00813128 /* NetflixShowsViewController.swift in Sources */,
@@ -366,13 +385,17 @@
 				E130F99226DD92C7002F712B /* OuterbanksViewController.swift in Sources */,
 				E1F9768F26B453E600CAFF5B /* Eupheme.xcdatamodeld in Sources */,
 				E19275AD26B451BB00590238 /* TableViewDelegate.swift in Sources */,
+				E1666CFB26E138C30038CF36 /* ScreamQueensViewController.swift in Sources */,
 				E1F9769126B47F5800CAFF5B /* EuphemeClass.swift in Sources */,
+				E1666CF926E031CB0038CF36 /* ManifestHuluViewController.swift in Sources */,
 				E163728726B65CE800A13106 /* ShowRecsViewController.swift in Sources */,
 				E130F99026DD92BC002F712B /* TheSocietyViewController.swift in Sources */,
 				E1A79E9226B0ABED00F9127E /* ViewController.swift in Sources */,
 				E1A79EC326B0B08B00F9127E /* ReflectViewController.swift in Sources */,
 				E130F98426DD7B20002F712B /* EliteViewController.swift in Sources */,
 				E130F98A26DD9295002F712B /* ManifestViewController.swift in Sources */,
+				E1666CFF26E138DA0038CF36 /* ShamelessNetflixViewController.swift in Sources */,
+				E1666CFD26E138CF0038CF36 /* AloneViewController.swift in Sources */,
 				E130F98826DD7D39002F712B /* DeathNoteViewController.swift in Sources */,
 				E1A79ECB26B0E60800F9127E /* BookRecsViewController.swift in Sources */,
 				E139588826BB473D00813128 /* DisneyShowsViewController.swift in Sources */,
@@ -389,6 +412,7 @@
 				E130F98C26DD92A1002F712B /* AtypicalViewController.swift in Sources */,
 				E139588C26BB9E5A00813128 /* ClearResponseViewController.swift in Sources */,
 				E130F98E26DD92AF002F712B /* YoungRoyalsViewController.swift in Sources */,
+				E1666CF726E02E9C0038CF36 /* GilmoreGirlsViewController.swift in Sources */,
 				E19275AB26B2586900590238 /* ShowMovieRecsViewController.swift in Sources */,
 				E139588626BB472C00813128 /* PrimeShowsViewController.swift in Sources */,
 				E139588426BB471D00813128 /* HuluShowsViewController.swift in Sources */,

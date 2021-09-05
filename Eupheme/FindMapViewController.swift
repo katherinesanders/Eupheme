@@ -18,6 +18,7 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate, MKMapV
     @IBOutlet weak var map: MKMapView!
     //fileprivate let locationManager:CLLocationManager = CLLocationManager()
     
+    @IBOutlet weak var resultsView: UIView!
     
     //let annotation = MKPointAnnotation()
     
@@ -46,10 +47,9 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate, MKMapV
                 map.addAnnotation(northWestCounseling)
         
         
-                
+        resultsView.layer.cornerRadius = 10
 
-                //maybe only do montana, idaho, wyoming, and the dakotas
-                
+
                 
                 
                 //SHOWS ERROR
@@ -92,7 +92,6 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate, MKMapV
     }
     
     class Therapy {
-        //is this allowed
         var therapyName = ""
         var therapyLocation = ""
         var therapyNumber = ""
