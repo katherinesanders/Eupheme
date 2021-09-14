@@ -15,7 +15,10 @@ class AloneViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func aloneWatch(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.hulu.com/series/alone-b1128cab-203f-4c29-bb9f-6548662926c7")! as URL, options: [:], completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

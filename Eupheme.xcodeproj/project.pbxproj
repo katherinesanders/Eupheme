@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1088B5926F13F7100F8EAF5 /* TheHateUGiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1088B5826F13F7100F8EAF5 /* TheHateUGiveViewController.swift */; };
+		E1088B5B26F13F8500F8EAF5 /* RedWhiteRoyalBlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1088B5A26F13F8500F8EAF5 /* RedWhiteRoyalBlueViewController.swift */; };
+		E1088B5D26F13F9200F8EAF5 /* TheGiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1088B5C26F13F9200F8EAF5 /* TheGiverViewController.swift */; };
 		E130F98226DD79A5002F712B /* YouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98126DD79A5002F712B /* YouViewController.swift */; };
 		E130F98426DD7B20002F712B /* EliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98326DD7B20002F712B /* EliteViewController.swift */; };
 		E130F98626DD7C7A002F712B /* NeverthelessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130F98526DD7C7A002F712B /* NeverthelessViewController.swift */; };
@@ -74,6 +77,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1088B5826F13F7100F8EAF5 /* TheHateUGiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHateUGiveViewController.swift; sourceTree = "<group>"; };
+		E1088B5A26F13F8500F8EAF5 /* RedWhiteRoyalBlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedWhiteRoyalBlueViewController.swift; sourceTree = "<group>"; };
+		E1088B5C26F13F9200F8EAF5 /* TheGiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGiverViewController.swift; sourceTree = "<group>"; };
 		E130F98126DD79A5002F712B /* YouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouViewController.swift; sourceTree = "<group>"; };
 		E130F98326DD7B20002F712B /* EliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliteViewController.swift; sourceTree = "<group>"; };
 		E130F98526DD7C7A002F712B /* NeverthelessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverthelessViewController.swift; sourceTree = "<group>"; };
@@ -223,6 +229,9 @@
 				E1666CFC26E138CF0038CF36 /* AloneViewController.swift */,
 				E1666CFE26E138DA0038CF36 /* ShamelessNetflixViewController.swift */,
 				E1666D0026E138E70038CF36 /* ShamelessHuluViewController.swift */,
+				E1088B5826F13F7100F8EAF5 /* TheHateUGiveViewController.swift */,
+				E1088B5A26F13F8500F8EAF5 /* RedWhiteRoyalBlueViewController.swift */,
+				E1088B5C26F13F9200F8EAF5 /* TheGiverViewController.swift */,
 			);
 			path = Eupheme;
 			sourceTree = "<group>";
@@ -385,6 +394,7 @@
 				E130F99226DD92C7002F712B /* OuterbanksViewController.swift in Sources */,
 				E1F9768F26B453E600CAFF5B /* Eupheme.xcdatamodeld in Sources */,
 				E19275AD26B451BB00590238 /* TableViewDelegate.swift in Sources */,
+				E1088B5D26F13F9200F8EAF5 /* TheGiverViewController.swift in Sources */,
 				E1666CFB26E138C30038CF36 /* ScreamQueensViewController.swift in Sources */,
 				E1F9769126B47F5800CAFF5B /* EuphemeClass.swift in Sources */,
 				E1666CF926E031CB0038CF36 /* ManifestHuluViewController.swift in Sources */,
@@ -393,6 +403,7 @@
 				E1A79E9226B0ABED00F9127E /* ViewController.swift in Sources */,
 				E1A79EC326B0B08B00F9127E /* ReflectViewController.swift in Sources */,
 				E130F98426DD7B20002F712B /* EliteViewController.swift in Sources */,
+				E1088B5B26F13F8500F8EAF5 /* RedWhiteRoyalBlueViewController.swift in Sources */,
 				E130F98A26DD9295002F712B /* ManifestViewController.swift in Sources */,
 				E1666CFF26E138DA0038CF36 /* ShamelessNetflixViewController.swift in Sources */,
 				E1666CFD26E138CF0038CF36 /* AloneViewController.swift in Sources */,
@@ -402,6 +413,7 @@
 				E1A79EC726B0B20E00F9127E /* HotlinesViewController.swift in Sources */,
 				E1A79E8E26B0ABED00F9127E /* AppDelegate.swift in Sources */,
 				E1A79E9026B0ABED00F9127E /* SceneDelegate.swift in Sources */,
+				E1088B5926F13F7100F8EAF5 /* TheHateUGiveViewController.swift in Sources */,
 				E163728926B663D600A13106 /* NHIEViewController.swift in Sources */,
 				E19275A926B105D800590238 /* ColorViewController.swift in Sources */,
 				E1A79EC526B0B09900F9127E /* WriteViewController.swift in Sources */,

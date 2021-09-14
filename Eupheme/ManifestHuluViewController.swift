@@ -16,7 +16,7 @@ class ManifestHuluViewController: UIViewController {
     }
     
     @IBAction func manifestWatch(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://www.netflix.com/search?q=manifest&jbv=802413188")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "https://www.hulu.com/series/manifest-a1e5ed46-2704-431e-94b0-9aea1560c712")! as URL, options: [:], completionHandler: nil)
     }
     
     /*

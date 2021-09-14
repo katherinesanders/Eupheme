@@ -1,13 +1,13 @@
 //
-//  ShamelessHuluViewController.swift
+//  TheGiverViewController.swift
 //  Eupheme
 //
-//  Created by Katherine Sanders on 9/2/21.
+//  Created by Katherine Sanders on 9/14/21.
 //
 
 import UIKit
 
-class ShamelessHuluViewController: UIViewController {
+class TheGiverViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,10 +15,7 @@ class ShamelessHuluViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func shamelessWatch(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://www.hulu.com/series/shameless-1161fd4f-4ba3-4a26-a2c4-3ce21aa518a7")! as URL, options: [:], completionHandler: nil)
-    }
-    
+
     /*
     // MARK: - Navigation
 

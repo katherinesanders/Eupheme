@@ -15,7 +15,10 @@ class ScreamQueensViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func screamQueens(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.hulu.com/series/scream-queens-f4a78966-fc35-47ef-b848-a57c5fea4b9d")! as URL, options: [:], completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
