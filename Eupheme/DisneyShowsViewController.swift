@@ -9,9 +9,19 @@ import UIKit
 
 class DisneyShowsViewController: UIViewController {
 
+    @IBOutlet weak var lokiImage: UIView!
+    
+    @IBOutlet weak var wandavisionImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        lokiImage.layer.cornerRadius = 20
+        self.lokiImage.layer.masksToBounds = true;
+        
+        wandavisionImage.layer.cornerRadius = 20
+        self.wandavisionImage.layer.masksToBounds = true;
         // Do any additional setup after loading the view.
     }
     

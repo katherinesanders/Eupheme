@@ -9,9 +9,14 @@ import UIKit
 
 class HBOShowsViewController: UIViewController {
 
+    @IBOutlet weak var euphoriaImage: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        euphoriaImage.layer.cornerRadius = 20
+        self.euphoriaImage.layer.masksToBounds = true;
+        
         // Do any additional setup after loading the view.
     }
     

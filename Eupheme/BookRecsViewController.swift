@@ -31,6 +31,33 @@ class BookRecsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        theHateUGiveImage.layer.cornerRadius = 20
+        self.theHateUGiveImage.layer.masksToBounds = true;
+        
+        redWhiteRoyalBlueImage.layer.cornerRadius = 20
+        self.redWhiteRoyalBlueImage.layer.masksToBounds = true;
+        
+        theGiverImage.layer.cornerRadius = 20
+        self.theGiverImage.layer.masksToBounds = true;
+        
+        weWereLiarsImage.layer.cornerRadius = 20
+        self.weWereLiarsImage.layer.masksToBounds = true;
+        
+        oneOfUsIsLyingImage.layer.cornerRadius = 20
+        self.oneOfUsIsLyingImage.layer.masksToBounds = true;
+        
+        theAlchemistImage.layer.cornerRadius = 20
+        self.theAlchemistImage.layer.masksToBounds = true;
+        
+        allTheBrightPlacesImage.layer.cornerRadius = 20
+        self.allTheBrightPlacesImage.layer.masksToBounds = true;
+        
+        theseViolentDelightsImage.layer.cornerRadius = 20
+        self.theseViolentDelightsImage.layer.masksToBounds = true;
+        
+        theyBothDieInTheEndImage.layer.cornerRadius = 20
+        self.theyBothDieInTheEndImage.layer.masksToBounds = true;
+        
         // Do any additional setup after loading the view.
     }
     

@@ -940,6 +940,9 @@
                             <constraint firstItem="MqP-cn-oBh" firstAttribute="top" secondItem="GzU-JP-2aG" secondAttribute="top" constant="45" id="svY-1k-DEs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="makingTheCutImage" destination="Bks-Qq-U2u" id="bOw-S9-jSa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iq8-BX-KMV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1775,6 +1778,10 @@
                             <constraint firstAttribute="bottom" secondItem="Way-8O-ynB" secondAttribute="bottom" id="s4D-WX-QUW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lokiImage" destination="1ZP-GS-6Dm" id="N4N-1t-2QG"/>
+                        <outlet property="wandavisionImage" destination="KL0-RZ-BwA" id="l9c-fF-QOx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V8x-08-97Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1862,6 +1869,9 @@
                             <constraint firstItem="GOE-pM-A3s" firstAttribute="top" secondItem="ro8-gm-aQ4" secondAttribute="top" constant="45" id="jNb-Ye-QKe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="euphoriaImage" destination="p7z-eI-rz8" id="3wZ-2N-he3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84h-mz-IaF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5027,9 +5037,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="HVh-fV-phG"/>
-        <segue reference="QjB-q4-x9R"/>
-        <segue reference="iMr-Ca-aKZ"/>
-        <segue reference="riM-Nd-A74"/>
+        <segue reference="WnB-pZ-OJd"/>
+        <segue reference="xL0-9c-En3"/>
+        <segue reference="Oxe-FH-AF6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="allthebrightplaces-mine" width="700" height="1000"/>

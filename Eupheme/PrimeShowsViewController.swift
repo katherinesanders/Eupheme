@@ -9,8 +9,13 @@ import UIKit
 
 class PrimeShowsViewController: UIViewController {
 
+    @IBOutlet weak var makingTheCutImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        makingTheCutImage.layer.cornerRadius = 20
+        self.makingTheCutImage.layer.masksToBounds = true;
 
         // Do any additional setup after loading the view.
     }
