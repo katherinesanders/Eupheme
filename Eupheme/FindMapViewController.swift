@@ -1297,8 +1297,380 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate, MKMapV
             
         }
         
+        if userTownField.text == "Townsend, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "White Sulphur Springs, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Avon, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Basin, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Boulder, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Canyon Creek, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Clancy, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "East Helena, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Elliston, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Garrison, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Gold Creek, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Jefferson City, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Lincoln, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Martinsdale, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Marysville, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Monarch, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Neihart, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Radersburg, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ringling, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Seeley Lake, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Toston, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Winston, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Wolf Creek, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        
+        
+        //if any town in 11 is in text field, list these objects
+        if userTownField.text == "Missoula, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Drummond, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Alberton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Deer Lodge, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Hamilton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Arlee, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Basin, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Bonner, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Clinton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Corvallis, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "De Borgia, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Dixon, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Florence, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Frenchtown, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Garrison, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Gold Creek, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Greenough, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Hall, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Helmville, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Huson, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Lincoln, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Lolo, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Milltown, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ovando, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Pinesdale, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Ravalli, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Stevensville, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Victor, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        
+        //if any town in 12 is in text field, list these objects
         
         /*
+         Polson
+         Thompson falls
+         Missoula
+         Kalispell
+         (Also) Alberton
+         (also) Arlee
+         (also) big arm
+         (also) big fork
+         (also) Bonner
+         Charlo
+         (also) Columbia Falls
+         Condon
+         (also) Coram
+         (also) Dayton
+         De Borgia
+         Dixon
+         Elmo
+         (also) Florence
+         Frenchtown
+         Haugan
+         (also) Heron
+         Hot Springs
+         (also) Hungry Horse
+         Huson
+         Kila
+         Lakeside
+         Lonepine
+         (also) Marion
+         Noxon
+         (also) Olney
+         Pablo
+         Paradise
+         Plains
+         Polson
+         Proctor
+         Ravalli
+         Rollins
+         Ronan
+         Saint Ignatius/St. Ignatius
+         Saint Regis/ St. Regis
+         Saltese
+         Seeley Lake
+         Somers
+         Superior
+         Thompson Falls
+         (also) Trout Creek
 
 
          */
