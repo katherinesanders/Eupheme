@@ -1623,57 +1623,868 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate, MKMapV
         
         
         //if any town in 12 is in text field, list these objects
+        if userTownField.text == "Polson, Montana" {
+            
+            testText.text = " : "
+            
+        }
         
-        /*
-         Polson
-         Thompson falls
-         Missoula
-         Kalispell
-         (Also) Alberton
-         (also) Arlee
-         (also) big arm
-         (also) big fork
-         (also) Bonner
-         Charlo
-         (also) Columbia Falls
-         Condon
-         (also) Coram
-         (also) Dayton
-         De Borgia
-         Dixon
-         Elmo
-         (also) Florence
-         Frenchtown
-         Haugan
-         (also) Heron
-         Hot Springs
-         (also) Hungry Horse
-         Huson
-         Kila
-         Lakeside
-         Lonepine
-         (also) Marion
-         Noxon
-         (also) Olney
-         Pablo
-         Paradise
-         Plains
-         Polson
-         Proctor
-         Ravalli
-         Rollins
-         Ronan
-         Saint Ignatius/St. Ignatius
-         Saint Regis/ St. Regis
-         Saltese
-         Seeley Lake
-         Somers
-         Superior
-         Thompson Falls
-         (also) Trout Creek
+        
+        if userTownField.text == "Thompson Falls, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Missoula, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Kalispell, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Alberton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Arlee, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Big Arm, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Big Fork, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Bonner, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Charlo, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Columbia Falls, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Condon, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Coram, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Dayton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "De Borgia, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Dixon, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Elmo, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Florence, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Frenchtown, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Haugan, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Heron, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Hot Springs, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Hungry Horse, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Huson, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Kila, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Lakeside, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Lonepine, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Marion, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Noxon, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Olney, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Pablo, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Paradise, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Plains, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Polson, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Proctor, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ravalli, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Rollins, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ronan, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //St. Ignatius
+        if userTownField.text == "Saint Ignatius, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //St. Regis
+        if userTownField.text == "Saint Regis, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Saltese, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Seeley Lake, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Somers, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Superior, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Thompson Falls, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Trout Creek, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //if any town in 13 is in text field, list these objects
+        if userTownField.text == "Deer Lodge, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Hamilton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Anaconda, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Butte, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Avon, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Basin, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Boulder, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Cardwell, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Conner, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Corvallis, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Darby, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Divide, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Garrison, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Glen, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Grantsdale, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Jackson, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Jefferson City, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Melrose, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Philipsburg, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Pony, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ramsay, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Sheridan, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Silver Star, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Sula, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Twin Bridges, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Warm Springs, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Whitehall, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Wisdom, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Wise River, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        
+        
+        //if any town in 14 is in text field, list these objects
+        if userTownField.text == "Virginia City, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Dillon, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "West Yellowstone, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Alder, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Cameron, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Dell, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Glen, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Jackson, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Lima, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Melrose, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Norris, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Polaris, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Twin Bridges, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        
+        
+        //if any town in 15 is in text field, list these objects
+        if userTownField.text == "Three Forks, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Bozeman, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Livingston, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Belgrade, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Alder, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Big Sky, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Cameron, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Cardwell, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Clyde Park, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Emigrant, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ennis, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Four Corners, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Gallatin Gateway, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Gardiner, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Harrison, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Manhattan, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "McAllister, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Norris, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Pony, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Pray, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Radersburg, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Ringling, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Toston, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Willow Creek, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Wilsall, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        
+        //if any town in 16 is in text field, list these objects
+        if userTownField.text == "Livingston, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Harlowton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Big Timber, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Columbus, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Cooke City, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Fishtail, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Greycliff, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Lavina, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Martinsdale, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "McLeod, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Melville, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Nye, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Pray, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Rapelje, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Reed Point, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Roscoe, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Ryegate, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Shawmut, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Silver Gate, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Springdale, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Two Dot, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Wilsall, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
 
-
-         */
         
         //if any town in 17 is in text field, list these objects
         if userTownField.text == "Billings, Montana" {
@@ -1682,6 +2493,344 @@ class FindMapViewController: UIViewController, CLLocationManagerDelegate, MKMapV
             
         }
         
+        if userTownField.text == "Red Lodge, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Roundup, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Laurel, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Hardin, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Crow Agency, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Absarokee, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Acton, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ballantine, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Bearcreek, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Belfry, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Boyd, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Bridger, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Broadview, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Busby, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Columbus, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Cooke City, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Custer, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Decker, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Edgar, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Fishtail, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Fromberg, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Garryowen, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Huntley, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Hysham, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ingomar, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Joliet, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Lavina, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Melstone, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Molt, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Musselshell, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Park City, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Pompeys Pillar, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Pryor, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Rapelje, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Reed Point, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Roberts, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Roscoe, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Ryegate, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //st. xavier
+        if userTownField.text == "Saint Xavier, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Sanders, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Shepherd, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Shawmut, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //also
+        if userTownField.text == "Sumatra, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Worden, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Wyola, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        if userTownField.text == "Yellowtail, Montana" {
+            
+            testText.text = " : "
+            
+        }
+        
+        //if any town in 18 is in text field, list these objects
+        
+        
+        
+        /*
+         (also) Terry
+         Miles City
+         Colstrip
+         Forsyth
+         Angela
+         Ashland
+         Biddle
+         (also) Boyes
+         Busby
+         (also) Fallon
+         Hathaway
+         (also) Hysham
+         Kinsey
+         Lame Deer
+         Mildred
+         (also) Olive
+         Otter
+         (also) Plevna
+         Rosebud
+         (also) Sanders
+         Sonnette
+         Volborg
+
+         */
+        
+        
+        
+        //if any town in 19 is in text field, list these objects
+        
+        /*
+         Ekalaka
+         Baker
+         Alzada
+         (also) Ashland
+         (also) Biddle
+         Birney
+         Boyes
+         Broadus
+         (also) Decker
+         Hammond
+         (also) Lame Deer
+         Lodge Grass
+         Olive
+         (also) Otter
+         Plevna
+         Powderville
+         (also) Sonnette
+         Willard
+         */
         
     }
     
